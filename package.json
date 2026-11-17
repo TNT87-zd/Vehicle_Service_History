@@ -1,0 +1,17 @@
+{
+  "name": "ds441-vehicle-service-history",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Individual DS441 blockchain assignment: vehicle service history on Ganache",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:ganache": "hardhat run scripts/deploy.js --network ganache",
+    "web": "http-server frontend -p 3000 -c-1"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0",
+    "http-server": "^14.1.1"
+  }
+}
